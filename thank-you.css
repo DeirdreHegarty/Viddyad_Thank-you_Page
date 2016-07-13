@@ -1,6 +1,16 @@
 #blueContainer{
 		background: url(Assets/Header_BG.png);
-		padding-bottom: 20px;
+		padding-bottom: 66px;
+	}
+	#centerBar{
+		width:5px;
+		height:100px;
+		/* Rectangle 91: */
+		/*opacity: 0.15;*/
+		/*background: #D8D8D8;
+		border: 1px solid #979797;*/
+		background: white;
+		border-radius: 100px;
 	}
 	#yay{
 		/* YAY YOU!: */
@@ -14,6 +24,9 @@
 		font-size: 18px;
 		color: #FFFFFF;
 		line-height: 11px;
+	}
+	#boxRow{
+		margin-top: 30px;
 	}
 	#firstLeft{
 		height:176px;
@@ -35,6 +48,7 @@
 	}
 	#bottomFill1{
 		background-image: linear-gradient(-180deg, #FE3615 0%, #F06207 100%);
+
 		border-radius: 0px 0px 4px 4px;
 		/* Start Survey: */
 		font-family: OpenSans-Semibold;
@@ -66,6 +80,7 @@
 		font-size: 14px;
 		color: #FFFFFF;
 		border: 1px solid rgba(255,255,255,0.30);
+		border-top: none;
 		border-radius: 0px 0px 4px 4px;
 	}
 	#dropDownBtn{
@@ -115,7 +130,7 @@
 		font-size: 8px;
 		color: #FFFFFF;
 		height:27px;
-		margin-bottom:27px;
+		margin-top:30px;
 		display:flex;
 		justify-content: space-between;
 	}
@@ -124,10 +139,9 @@
 		background: rgba(225, 225, 225, 0.14);
 		border-radius: 4px 4px 0px 0px;
 	}
-	#icon_row{
-		display:none;
-		padding-top:50px;
-		padding-bottom: 50px;
+	#icon-row{
+		padding-top:30px;
+		padding-bottom: 40px;
 	}
 	#icons_Text{
 		/* SHARE THE GOOD NEWS!: */
@@ -143,7 +157,7 @@
 		background: #FFFFFF;
 	}
 	#topWhiteRow{
-		padding-top:50px;
+		padding-top:66px;
 		padding-bottom:100px;
 	}
 /******** Left Box *******/
@@ -271,10 +285,18 @@
 		height: 66px;
 		width: 33%;
 		margin: auto;
+		margin-top: 66px;
+		margin-bottom: 66px;
 		/*To center text*/
 		display: flex;
     	justify-content: center;
     	align-items: center;
 		background-image: linear-gradient(-180deg, #FF3416 0%, #F06207 100%);
 		border-radius: 5px;
+	}
+	#lineBottom{
+		height:2px;
+		/* Bottom Line: */
+		background: #DEDEDE;
+		border-radius: 100px;
 	}
