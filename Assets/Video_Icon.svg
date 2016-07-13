@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>clip solid</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-1146.000000, -986.000000)" fill="#FFFFFF">
+            <g id="Group-16" transform="translate(734.000000, 830.000000)">
+                <g id="Group-2">
+                    <g id="Group-4">
+                        <g id="Group-15" transform="translate(290.000000, 146.000000)">
+                            <path d="M137.640572,10 L133.239428,10 L137.559428,17.2 L141.960572,17.2 L137.640572,10 Z M140.439428,10 L143.995053,10 C145.102355,10 146,10.8973271 146,12.0056014 L146,17.2 L144.759428,17.2 L140.439428,10 Z M130.440572,10 L126.039428,10 L130.359428,17.2 L134.760572,17.2 L130.440572,10 Z M123.313905,10.1222222 C122.546824,10.4037968 122,11.1407754 122,12.0056014 L122,17.2 L127.560572,17.2 L123.313905,10.1222222 Z M122,19.6 L146,19.6 L146,31.9977417 C146,33.1035584 145.102974,34 143.995053,34 L124.004947,34 C122.897645,34 122,33.0992155 122,31.9977417 L122,19.6 Z M126.8,23.2 L141.2,23.2 L141.2,25.6 L126.8,25.6 L126.8,23.2 Z" id="clip-solid"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

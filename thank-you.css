@@ -1,0 +1,280 @@
+#blueContainer{
+		background: url(Assets/Header_BG.png);
+		padding-bottom: 20px;
+	}
+	#yay{
+		/* YAY YOU!: */
+	font-family: Montserrat-Regular;
+	font-size: 40px;
+	color: #FFFFFF;
+	letter-spacing: 5.71px;
+	}
+	#subHead{
+		font-family: OpenSans-Semibold;
+		font-size: 18px;
+		color: #FFFFFF;
+		line-height: 11px;
+	}
+	#firstLeft{
+		height:176px;
+		background: rgba(225, 225, 225, 0.14);
+		border-radius: 4px 4px 0px 0px;
+	}
+	#surveyHeader{
+		/* GET $5 CREDIT - FAST: */
+		font-family: Montserrat-Regular;
+		font-size: 20px;
+		color: #FFFFFF;
+		letter-spacing: 2px;
+	}
+	#surveyP{
+		font-family: OpenSans-Light;
+		font-size: 14px;
+		color: #FFFFFF;
+		line-height: 20px;
+	}
+	#bottomFill1{
+		background-image: linear-gradient(-180deg, #FE3615 0%, #F06207 100%);
+		border-radius: 0px 0px 4px 4px;
+		/* Start Survey: */
+		font-family: OpenSans-Semibold;
+		font-size: 18px;
+		color: #FFFFFF;
+		height:50px;
+		/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#bottomFill2{
+		background-image: linear-gradient(-180deg, #FE3615 0%, #F06207 100%);
+		border-radius: 0px 0px 4px 4px;
+		/* Start Survey: */
+		font-family: OpenSans-Semibold;
+		font-size: 18px;
+		color: #FFFFFF;
+		height:50px;
+		/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#dropDown2{
+		height:188px;
+		/* Enter as many emails: */
+		font-family: OpenSans-Light;
+		font-size: 14px;
+		color: #FFFFFF;
+		border: 1px solid rgba(255,255,255,0.30);
+		border-radius: 0px 0px 4px 4px;
+	}
+	#dropDownBtn{
+		height:30px;
+		margin-bottom:30px;
+		background-image: linear-gradient(-180deg, #F06107 0%, #FE3715 100%);
+		border-radius: 2px;
+		/* Send Invites: */
+		font-family: OpenSans-Semibold;
+		font-size: 10px;
+		color: #FFFFFF;
+		/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#dropIcon-row{
+		padding-top: 20px;
+	}
+	.well{
+		background: rgba(255,255,255,0.11);
+		border: 1px solid rgba(255,255,255,0.30);
+		border-radius: 2px;
+	}
+	#btnGroup1{
+		margin-left: 5px;
+		background: rgba(255,255,255,0.20);
+		border-radius: 2px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	justify-content: space-between;
+	}
+	#btnGroupLast{
+		margin-left:5px;
+		margin-right: 5px;
+		background: rgba(255,255,255,0.20);
+		border-radius: 2px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	justify-content: space-between;
+	}
+	#btnGroup{
+		/* Invite with Facebook: */
+		font-family: OpenSans-Semibold;
+		font-size: 8px;
+		color: #FFFFFF;
+		height:27px;
+		margin-bottom:27px;
+		display:flex;
+		justify-content: space-between;
+	}
+	#topRightBox{
+		height:176px;
+		background: rgba(225, 225, 225, 0.14);
+		border-radius: 4px 4px 0px 0px;
+	}
+	#icon_row{
+		display:none;
+		padding-top:50px;
+		padding-bottom: 50px;
+	}
+	#icons_Text{
+		/* SHARE THE GOOD NEWS!: */
+		font-family: Montserrat-Regular;
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 2.57px;
+	}
+
+/**************** White Container CSS ***********************/
+	#whiteContainer{
+		/* Bottom Background (White): */
+		background: #FFFFFF;
+	}
+	#topWhiteRow{
+		padding-top:50px;
+		padding-bottom:100px;
+	}
+/******** Left Box *******/
+	#WCSubtext{
+		/* Now that you’ve made: */
+		font-family: OpenSans;
+		font-size: 16px;
+		color: #404040;
+		line-height: 23px;
+	}
+	#WCHeader{
+		/* WHAT’S NEXT?: */
+		font-family: Montserrat-Regular;
+		font-size: 30px;
+		color: #000000;
+		letter-spacing: 4.28px;
+		margin-top:140px;
+	}
+/******* Right Box ********/
+	#facebook{
+	height: 77px;
+	background: #364D88;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+	border-radius: 0px 0px 4px 4px;
+	font-family: OpenSans;
+	font-size: 16px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+	/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#facebookTop{
+		height:44;
+		background: #364D88;
+		border-radius: 4px 4px 0px 0px;
+	}
+	#Link{
+	height: 77px;
+	background: rgb(82, 141, 195);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+	border-radius: 0px 0px 4px 4px;
+	font-family: OpenSans;
+	font-size: 16px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+	/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#LinkTop{
+	height:44;
+	background: #317BB5;
+	border-radius: 4px 4px 0px 0px;
+	}
+	#standOut{
+	height: 77px;
+	background: rgb(73, 73, 73);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+	border-radius: 0px 0px 4px 4px;
+	font-family: OpenSans;
+	font-size: 16px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+	/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#standOutTop{
+	height:44px;
+	background: #353535;
+	border-radius: 4px 4px 0px 0px;
+	}
+	#embed{
+	height: 77px;
+	background: rgb(238, 123, 4);
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+	border-radius: 0px 0px 4px 4px;
+	font-family: OpenSans;
+	font-size: 16px;
+	color: #FFFFFF;
+	color: #FFFFFF;
+	/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#embedTop{
+	height:44px;
+	background: #F06107;
+	border-radius: 4px 4px 0px 0px;
+	}
+	#blackBtn{
+	background: #181818;
+	border-radius: 4px;
+	/* How to promote acros: */
+	font-family: OpenSans;
+	font-size: 16px;
+	color: #FFFFFF;
+	height:52;
+	/*align text in center*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+	}
+	#clickArrow{
+		margin-left:50px;
+		justify-content: right;
+    	align-items: right;
+	}
+
+/***** Footer ************/
+	#footer{
+		background: #FFFFFF;
+		/* Create Another Viddy: */
+		font-family: OpenSans-Semibold;
+		font-size: 18px;
+		color: #FFFFFF;
+		letter-spacing: 0px;
+	}
+	#createAd{
+		height: 66px;
+		width: 33%;
+		margin: auto;
+		/*To center text*/
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+		background-image: linear-gradient(-180deg, #FF3416 0%, #F06207 100%);
+		border-radius: 5px;
+	}
