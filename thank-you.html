@@ -11,7 +11,7 @@
 </head>
 <body>
 <!--blue container-->
-<div class="container-fluid text-center" id="blueContainer"><br/>
+<div class="container text-center" id="blueContainer"><br/>
 	<div class="row">
 		<h1 id="yay">YAY YOU!</h1>
 		<h3 id="subHead">Your video has been purchased</h3>
@@ -53,10 +53,10 @@
 				<div class="col-sm-5 col-sm-offset-1"  id="dropDown1">
 					<div class="row" id="dropIcon-row">
 						<h2 id="icons_Text">SHARE THE GOOD NEWS!</h2>
-						<img src="Assets/Facebook.svg"></img>
-						<img src="Assets/Twitter.svg"></img>
-						<img src="Assets/G+.svg"></img>
-						<img src="Assets/Linked_In.svg"></img>
+						<img src="Assets/Facebook.svg" id="icons"></img>
+						<img src="Assets/Twitter.svg" id="icons"></img>
+						<img src="Assets/G+.svg" id="icons"></img>
+						<img src="Assets/Linked_In.svg" id="icons"></img>
 					</div>
 				</div>
 				<div class="col-sm-5 col-sm-offset-1" id="dropDown2">
@@ -64,7 +64,12 @@
 						<br/>
 						<p>Enter as many emails as you'd like to</p>
 						<p>invite your friends to Viddyad</p>
-						<div class="well"></div>
+						<form role="form">
+							<div class="form-group" >
+								<input class="form-control" id="well">
+							</div>
+						</form>
+						<!-- <div class="well"></div> -->
 					<div class="col-sm-offset-4 col-sm-4" id="dropDownBtn">Send Invites</div>
 				</div>
 			</div>
@@ -73,23 +78,23 @@
 	<div class="row" id="icon_row2">
 		<div class="row" id="icon-row">
 			<h2 id="icons_Text">SHARE THE GOOD NEWS!</h2>
-			<img src="Assets/Facebook.svg"></img>
-			<img src="Assets/Twitter.svg"></img>
-			<img src="Assets/G+.svg"></img>
-			<img src="Assets/Linked_In.svg"></img>
+			<img src="Assets/Facebook.svg" id="icons"></img>
+			<img src="Assets/Twitter.svg" id="icons"></img>
+			<img src="Assets/G+.svg" id="icons"></img>
+			<img src="Assets/Linked_In.svg" id="icons"></img>
 		</div>
 	</div>
 </div><br/>
 </div>
 <!--white container-->
-<div class="container-fluid text-center" id="whiteContainer">
+<div class="container text-center" id="whiteContainer">
 	<div class="row" id="topWhiteRow">
 		<div class="col-sm-1"></div>
 		<div class="col-sm-5"><!--left box-->
-			<h1 id="WCHeader">WHAT'S NEXT?</h1>
-			<p id="WCSubtext">Now that you've made your video, it's time to turn heads.</p>
-			<p id="WCSubtext">Learn how you can launch your video into a successful ad</p>
-			<p id="WCSubtext">campaign by clicking the resources on the right</p>
+			<div class="col-sm-10">
+				<h1 id="WCHeader">WHAT'S NEXT?</h1>
+				<p id="WCSubtext">Now that you've made your video, it's time to turn heads. Learn how you can launch your video into a successful ad campaign by clicking the resources on the right</p>
+			</div>
 		</div><br/> 
 		<div class="col-sm-5"><!--right box-->
 			<div class="row">

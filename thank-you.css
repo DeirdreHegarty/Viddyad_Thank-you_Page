@@ -24,11 +24,13 @@
 		font-size: 18px;
 		color: #FFFFFF;
 		line-height: 11px;
+		padding-bottom: 12px;
 	}
 	#boxRow{
-		margin-top: 30px;
+		margin-top: 20px;
 	}
 	#firstLeft{
+		/*width:450px;*/
 		height:176px;
 		background: rgba(225, 225, 225, 0.14);
 		border-radius: 4px 4px 0px 0px;
@@ -44,11 +46,11 @@
 		font-family: OpenSans-Light;
 		font-size: 14px;
 		color: #FFFFFF;
-		line-height: 20px;
+		line-height: 16px;
 	}
 	#bottomFill1{
-		background-image: linear-gradient(-180deg, #FE3615 0%, #F06207 100%);
-
+		/*width:450px;*/
+		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
 		border-radius: 0px 0px 4px 4px;
 		/* Start Survey: */
 		font-family: OpenSans-Semibold;
@@ -61,7 +63,8 @@
     	align-items: center;
 	}
 	#bottomFill2{
-		background-image: linear-gradient(-180deg, #FE3615 0%, #F06207 100%);
+		/*width:450px;*/
+		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
 		border-radius: 0px 0px 4px 4px;
 		/* Start Survey: */
 		font-family: OpenSans-Semibold;
@@ -86,7 +89,7 @@
 	#dropDownBtn{
 		height:30px;
 		margin-bottom:30px;
-		background-image: linear-gradient(-180deg, #F06107 0%, #FE3715 100%);
+		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
 		border-radius: 2px;
 		/* Send Invites: */
 		font-family: OpenSans-Semibold;
@@ -100,8 +103,9 @@
 	#dropIcon-row{
 		padding-top: 20px;
 	}
-	.well{
-		background: rgba(255,255,255,0.11);
+	#well{
+		background-color: rgba(225, 225, 225, 0.14);
+		/*background: rgba(255,255,255,0.11);*/
 		border: 1px solid rgba(255,255,255,0.30);
 		border-radius: 2px;
 	}
@@ -115,6 +119,8 @@
     	justify-content: space-between;
 	}
 	#btnGroupLast{
+		/*height: 27px;
+		width:122px;*/
 		margin-left:5px;
 		margin-right: 5px;
 		background: rgba(255,255,255,0.20);
@@ -135,6 +141,7 @@
 		justify-content: space-between;
 	}
 	#topRightBox{
+		/*width:450px;*/
 		height:176px;
 		background: rgba(225, 225, 225, 0.14);
 		border-radius: 4px 4px 0px 0px;
@@ -149,6 +156,10 @@
 		font-size: 18px;
 		color: #FFFFFF;
 		letter-spacing: 2.57px;
+		margin-bottom: 20px;
+	}
+	#icons{
+		margin-left:7px;
 	}
 
 /**************** White Container CSS ***********************/
@@ -166,7 +177,7 @@
 		font-family: OpenSans;
 		font-size: 16px;
 		color: #404040;
-		line-height: 23px;
+		line-height: 20px;
 	}
 	#WCHeader{
 		/* WHAT’S NEXT?: */
@@ -179,12 +190,11 @@
 /******* Right Box ********/
 	#facebook{
 	height: 77px;
-	background: #364D88;
+	background: #495E96;
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
 	border-radius: 0px 0px 4px 4px;
 	font-family: OpenSans;
-	font-size: 16px;
-	color: #FFFFFF;
+	font-size: 14px;
 	color: #FFFFFF;
 	/*To center text*/
 		display: flex;
@@ -202,7 +212,7 @@
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
 	border-radius: 0px 0px 4px 4px;
 	font-family: OpenSans;
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
 	color: #FFFFFF;
 	/*To center text*/
@@ -221,7 +231,7 @@
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
 	border-radius: 0px 0px 4px 4px;
 	font-family: OpenSans;
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
 	color: #FFFFFF;
 	/*To center text*/
@@ -240,7 +250,7 @@
 	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
 	border-radius: 0px 0px 4px 4px;
 	font-family: OpenSans;
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
 	color: #FFFFFF;
 	/*To center text*/
@@ -258,8 +268,9 @@
 	border-radius: 4px;
 	/* How to promote acros: */
 	font-family: OpenSans;
-	font-size: 16px;
+	font-size: 14px;
 	color: #FFFFFF;
+	line-height: 14px;
 	height:52;
 	/*align text in center*/
 		display: flex;
@@ -291,7 +302,7 @@
 		display: flex;
     	justify-content: center;
     	align-items: center;
-		background-image: linear-gradient(-180deg, #FF3416 0%, #F06207 100%);
+		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
 		border-radius: 5px;
 	}
 	#lineBottom{
