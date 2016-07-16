@@ -31,7 +31,7 @@
 	}
 	#firstLeft{
 		/*width:450px;*/
-		height:176px;
+		height:226px;
 		background: rgba(225, 225, 225, 0.14);
 		border-radius: 4px 4px 0px 0px;
 	}
@@ -50,6 +50,8 @@
 	}
 	#bottomFill1{
 		/*width:450px;*/
+		position:absolute;
+		bottom:0px;
 		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
 		border-radius: 0px 0px 4px 4px;
 		/* Start Survey: */
@@ -64,6 +66,8 @@
 	}
 	#bottomFill2{
 		/*width:450px;*/
+		position:absolute;
+		bottom:0px;
 		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
 		border-radius: 0px 0px 4px 4px;
 		/* Start Survey: */
@@ -105,44 +109,64 @@
 	}
 	#well{
 		background-color: rgba(225, 225, 225, 0.14);
-		/*background: rgba(255,255,255,0.11);*/
 		border: 1px solid rgba(255,255,255,0.30);
 		border-radius: 2px;
 	}
 	#btnGroup1{
-		margin-left: 5px;
+		height:27px;
+		width:66px;
+		margin-right: 20px;
 		background: rgba(255,255,255,0.20);
 		border-radius: 2px;
 		display: flex;
     	justify-content: center;
     	align-items: center;
-    	justify-content: space-between;
+    	float:left;
 	}
-	#btnGroupLast{
-		/*height: 27px;
-		width:122px;*/
-		margin-left:5px;
-		margin-right: 5px;
+	#btnGroup2{
+		height:27px;
+		width:66px;
+		margin-right: 20px;
 		background: rgba(255,255,255,0.20);
 		border-radius: 2px;
 		display: flex;
     	justify-content: center;
     	align-items: center;
-    	justify-content: space-between;
+    	float:left;
+	}
+	#btnGroup3{
+		height: 27px;
+		width:66px;
+		background: rgba(255,255,255,0.20);
+		border-radius: 2px;
+		display: flex;
+    	justify-content: center;
+    	align-items: center;
+    	float:left;
+	}
+	#test{
+		margin:auto;
 	}
 	#btnGroup{
+		position:relative;
+		clear:both;
 		/* Invite with Facebook: */
 		font-family: OpenSans-Semibold;
 		font-size: 8px;
 		color: #FFFFFF;
 		height:27px;
-		margin-top:30px;
-		display:flex;
-		justify-content: space-between;
+		padding-bottom:15px;
+		margin-top:15px;
+		display:inline-block;
+		/*justify-content: space-between;*/
+	}
+	#inlineText{
+		padding-left: 10px;
 	}
 	#topRightBox{
 		/*width:450px;*/
-		height:176px;
+		position:relative;
+		height:226px;
 		background: rgba(225, 225, 225, 0.14);
 		border-radius: 4px 4px 0px 0px;
 	}
@@ -188,6 +212,10 @@
 		margin-top:140px;
 	}
 /******* Right Box ********/
+	#rightBoxMidRow{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
 	#facebook{
 	height: 77px;
 	background: #495E96;
