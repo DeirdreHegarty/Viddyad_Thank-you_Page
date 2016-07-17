@@ -3,6 +3,9 @@
 <html>
 <head>
   <title>Your video ad has been purchased</title>
+   <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="thank-you.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -11,26 +14,37 @@
 </head>
 <body>
 <!--blue container-->
-<div class="container text-center" id="blueContainer"><br/>
+<div class="container-fluid text-center" id="blueContainer"><br/>
 	<div class="row">
-		<h1 id="yay">YAY YOU!</h1>
-		<h3 id="subHead">Your video has been purchased</h3>
-		<p id="surveyP">We'll notify you via email once it's fully processes. In the meantime, there's a lot to do on Viddyad.com.</p>
-		<p id="surveyP">Learn what you can do next by exploring the links below. Here at Viddyad, we're there for our</p>
-		<p id="surveyP">customers from start to finish. Your ad campaign is just the beginning; we're here to help!</p>
+		<div class="col-xs-12 hidden-xs">
+			<h1 id="yay">YAY YOU!</h1>
+			<h3 id="subHead">Your video has been purchased</h3>
+			<p id="surveyP">We'll notify you via email once it's fully processes. In the meantime, there's a lot to do on Viddyad.com.</p>
+			<p id="surveyP">Learn what you can do next by exploring the links below. Here at Viddyad, we're there for our</p>
+			<p id="surveyP">customers from start to finish. Your ad campaign is just the beginning; we're here to help!</p>
+		</div>
+		<div class="col-xs-12 visible-xs" id="yayCol">
+			<h1 id="yay">YAY YOU!</h1>
+			<h3 id="subHead">Your video has been purchased</h3>
+			<p id="surveyP">
+				We'll notify you via email once it's fully processes. In the meantime, there's a lot to do on Viddyad.com.
+				Learn what you can do next by exploring the links below. Here at Viddyad, we're there for our
+				customers from start to finish. Your ad campaign is just the beginning; we're here to help!
+			</p>
+		</div>
 	</div><br/>
 	<div class="row">
-		<div class=" col-sm-offset-1 col-sm-9" id="boxRow"><!--contains the boxes-->
+		<div class="col-md-offset-1 col-md-9" id="boxRow"><!--contains the boxes-->
 			<div class="row">
-				<div class="col-sm-5 col-sm-offset-1" id="firstLeft"><!--box on left-->
+				<div class="col-md-5 col-md-offset-1 col-xs-offset-1 col-xs-10" id="firstLeft"><!--box on left-->
 					<h2 id="surveyHeader">GET $5 CREDIT - FAST</h2><br/>
 					<p id="surveyP">Fill out this 2 minute survey and we'll deposit $5 credit in your account. Your feedback is what keeps us moving forward!</p>
 					<div class="row">
-					<div class="col-sm-12" id="bottomFill1">Start Survey</div>
+					<div class="col-md-12 col-xs-12" id="bottomFill1">Start Survey</div>
 				</div>
 					<!-- <div id="centerBar"></div> -->
 				</div>
-				<div class="col-sm-5 col-sm-offset-1" id="topRightBox"><!--box on right-->
+				<div class="col-md-5 col-md-offset-1 col-xs-offset-1 col-xs-10" id="topRightBox"><!--box on right-->
 					<h2 id="surveyHeader">GET UP TO $600 CREDIT</h2>
 					<p id="surveyP">When you invite your friends to join Viddyad, you can receive up to $600 in credit. Choose an option below</p>
 					<div class="row">
@@ -43,25 +57,27 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12" id="bottomFill2">Invite Email Contacts</div>
+						<div class="col-md-12 col-sm-12 col-xs-12" id="bottomFill2">Invite Email Contacts</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 		<div class="row">
-		<div class=" col-sm-offset-1 col-sm-9"><!--contains the box buttons-->
+		<div class=" col-md-offset-1 col-md-9"><!--contains the box buttons-->
 			<div class="row">
-				<div class="col-sm-5 col-sm-offset-1"  id="dropDown1">
+				<div class="col-md-5 col-md-offset-1 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 hidden-sm hidden-xs"  id="dropDown1">
 					<div class="row" id="dropIcon-row">
-						<h2 id="icons_Text">SHARE THE GOOD NEWS!</h2>
-						<img src="Assets/Facebook.svg" id="icons"></img>
-						<img src="Assets/Twitter.svg" id="icons"></img>
-						<img src="Assets/G+.svg" id="icons"></img>
-						<img src="Assets/Linked_In.svg" id="icons"></img>
+						<div class="col-sm-12">
+							<h2 id="icons_Text">SHARE THE GOOD NEWS!</h2>
+							<img src="Assets/Facebook.svg" id="icons"></img>
+							<img src="Assets/Twitter.svg" id="icons"></img>
+							<img src="Assets/G+.svg" id="icons"></img>
+							<img src="Assets/Linked_In.svg" id="icons"></img>
+						</div>
 					</div>
 				</div>
-				<div class="col-sm-5 col-sm-offset-1" id="dropDown2">
+				<div class="col-md-5 col-md-offset-1 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10" id="dropDown2">
 					<div><img src="Assets/Triangle.svg"></img></div>
 						<br/>
 						<p>Enter as many emails as you'd like to</p>
@@ -72,103 +88,103 @@
 							</div>
 						</form>
 						<!-- <div class="well"></div> -->
-					<div class="col-sm-offset-4 col-sm-4" id="dropDownBtn">Send Invites</div>
+					<div class="col-md-offset-4 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10" id="dropDownBtn">Send Invites</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row" id="icon_row2">
 		<div class="row" id="icon-row">
-			<h2 id="icons_Text">SHARE THE GOOD NEWS!</h2>
-			<img src="Assets/Facebook.svg" id="icons"></img>
-			<img src="Assets/Twitter.svg" id="icons"></img>
-			<img src="Assets/G+.svg" id="icons"></img>
-			<img src="Assets/Linked_In.svg" id="icons"></img>
+			<div class="col-xs-12">
+				<h2 id="icons_Text">SHARE THE GOOD NEWS!</h2>
+				<img src="Assets/Facebook.svg" id="icons"></img>
+				<img src="Assets/Twitter.svg" id="icons"></img>
+				<img src="Assets/G+.svg" id="icons"></img>
+				<img src="Assets/Linked_In.svg" id="icons"></img>
+			</div>
 		</div>
-	</div>
 </div><br/>
 </div>
 <!--white container-->
-<div class="container text-center" id="whiteContainer">
+<div class="container-fluid text-center" id="whiteContainer">
 	<div class="row" id="topWhiteRow">
-		<div class="col-sm-1"></div>
-		<div class="col-sm-5"><!--left box-->
-			<div class="col-sm-10">
+		<div class="col-md-1"></div>
+		<div class="col-md-5"><!--left box-->
+			<div class="col-md-10">
 				<h1 id="WCHeader">WHAT'S NEXT?</h1>
 				<p id="WCSubtext">Now that you've made your video, it's time to turn heads. Learn how you can launch your video into a successful ad campaign by clicking the resources on the right</p>
 			</div>
 		</div><br/> 
-		<div class="col-sm-5"><!--right box-->
+		<div class="col-md-5"><!--right box-->
 			<div class="row">
-				<div class="col-sm-5">
+				<div class="col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 					<div class="row">
-						<div class="col-sm-12" id="facebookTop"><img src="Assets/Facebook_icon.svg" style="padding-top:10px">
+						<div class="col-md-12" id="facebookTop"><img src="Assets/Facebook_icon.svg" style="padding-top:10px">
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12" id="facebook">
+						<div class="col-md-12" id="facebook">
 							<p>How to start a Facebook campaign</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-1"></div>
-				<div class="col-sm-5">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 					<div class="row">
-						<div class="col-sm-12" id="LinkTop"><img src="Assets/Linked_In_Icon.svg" style="padding-top:10px">
+						<div class="col-md-12" id="LinkTop"><img src="Assets/Linked_In_Icon.svg" style="padding-top:10px">
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12" id="Link">
+						<div class="col-md-12" id="Link">
 							<p>How to start a LinkedIn campaign</p>
 						</div>
 					</div>
 				</div>
 			</div><!--end of right box top row-->
 			<div class="row" id="rightBoxMidRow">
-				<div class="col-sm-5">
+				<div class="col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 					<div class="row">
-						<div class="col-sm-12" id="embedTop"><img src="Assets/Embed_Icon.svg" style="padding-top:10px">
+						<div class="col-md-12" id="embedTop"><img src="Assets/Embed_Icon.svg" style="padding-top:10px">
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12" id="embed">
+						<div class="col-md-12" id="embed">
 						<p>How to embed a video on your site</p>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-1"></div>
-				<div class="col-sm-5">
+				<div class="col-md-1"></div>
+				<div class="col-md-5 col-md-offset-0 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
 					<div class="row">
-						<div class="col-sm-12" id="standOutTop"><img src="Assets/Video_icon.svg" style="padding-top:10px">
+						<div class="col-md-12" id="standOutTop"><img src="Assets/Video_icon.svg" style="padding-top:10px">
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-sm-12" id="standOut">
+						<div class="col-md-12" id="standOut">
 						<p>How to make your video stand out</p>
 					</div>
 					</div>
 				</div>
 			</div><!--end of right box second row-->
 			<div class="row" id="rightBoxBottomRow">
-				<div class="col-sm-11" id="blackBtn">
-					<div class="col-sm-offset-1 col-sm-9"><p id="blackBtnText">How to promote across social media</p></div>
-					<div class="col-sm-2"><img src="Assets/clickArrow.svg" id="clickArrow"></img></div>
+				<div class="col-md-offset-0 col-md-11 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 " id="blackBtn">
+					<div class="col-md-offset-1 col-md-9 col-sm-12 col-xs-12"><p id="blackBtnText">How to promote across social media</p></div>
+					<div class="col-md-2"><img src="Assets/clickArrow.svg" id="clickArrow"></img></div>
 				</div>
 			</div>
 		</div><!--end of right box-->
-		<div class="col-sm-1"></div>
+		<div class="col-md-1"></div>
 	</div><!-- end of row containing facebook and linkedin boxes -->
 		<br/>
 		</div>
-		<div class="col-sm-1"></div>
+		<div class="col-md-1"></div>
 	</div>
 </div>
 <footer class="container-fluid text-center" id="footer">
 	<div class="row">
-		<div class="col-sm-offset-1 col-sm-10" id="lineBottom"></div>
+		<div class="col-md-offset-1 col-md-8" id="lineBottom"></div>
 	</div></br>
 	<div class="row">
-	<div id="createAd">Create Another Viddyad</div>
+		<div class="col-md-offset-4 col-md-4 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10" id="createAd">Create Another Viddyad</div>
 	</div><br/>
 </footer>
 </body>

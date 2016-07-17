@@ -1,5 +1,7 @@
 #blueContainer{
 		background: url(Assets/Header_BG.png);
+		background-repeat: no-repeat;
+		background-size: cover;
 		padding-bottom: 66px;
 	}
 	#centerBar{
@@ -19,6 +21,10 @@
 	color: #FFFFFF;
 	letter-spacing: 5.71px;
 	}
+	#yayCol{
+		padding-left:10px;
+		padding-right: 10px;
+	}
 	#subHead{
 		font-family: OpenSans-Semibold;
 		font-size: 18px;
@@ -34,6 +40,16 @@
 		height:226px;
 		background: rgba(225, 225, 225, 0.14);
 		border-radius: 4px 4px 0px 0px;
+		/*margin-bottom: 200px;*/
+	}
+	@media (max-width: 984px){
+		#firstLeft{
+			/*width:450px;*/
+			height:226px;
+			background: rgba(225, 225, 225, 0.14);
+			border-radius: 4px 4px 0px 0px;
+			margin-bottom: 20px;
+		}
 	}
 	#surveyHeader{
 		/* GET $5 CREDIT - FAST: */
@@ -111,6 +127,10 @@
 		background-color: rgba(225, 225, 225, 0.14);
 		border: 1px solid rgba(255,255,255,0.30);
 		border-radius: 2px;
+		font-family: OpenSans-Light;
+		font-size: 14px;
+		color: #FFFFFF;
+		line-height: 16px;
 	}
 	#btnGroup1{
 		height:27px;
@@ -155,10 +175,9 @@
 		font-size: 8px;
 		color: #FFFFFF;
 		height:27px;
-		padding-bottom:15px;
+		margin-bottom:15px;
 		margin-top:15px;
 		display:inline-block;
-		/*justify-content: space-between;*/
 	}
 	#inlineText{
 		padding-left: 10px;
@@ -193,7 +212,7 @@
 	}
 	#topWhiteRow{
 		padding-top:66px;
-		padding-bottom:100px;
+		padding-bottom:100px;<!--HERE-->
 	}
 /******** Left Box *******/
 	#WCSubtext{
@@ -202,6 +221,7 @@
 		font-size: 16px;
 		color: #404040;
 		line-height: 20px;
+		margin-bottom: 20px;
 	}
 	#WCHeader{
 		/* WHAT’S NEXT?: */
@@ -211,11 +231,12 @@
 		letter-spacing: 4.28px;
 		margin-top:140px;
 	}
-/******* Right Box ********/
-	#rightBoxMidRow{
-		padding-top:30px;
-		padding-bottom:30px;
+	@media(max-width:984px){
+		#WCHeader{
+			margin-top: -10px;
+		}
 	}
+/******* Right Box ********/
 	#facebook{
 	height: 77px;
 	background: #495E96;
@@ -228,6 +249,7 @@
 		display: flex;
     	justify-content: center;
     	align-items: center;
+    margin-bottom:30px;
 	}
 	#facebookTop{
 		height:44;
@@ -247,6 +269,7 @@
 		display: flex;
     	justify-content: center;
     	align-items: center;
+    margin-bottom:30px;
 	}
 	#LinkTop{
 	height:44;
@@ -266,6 +289,7 @@
 		display: flex;
     	justify-content: center;
     	align-items: center;
+    margin-bottom:30px;
 	}
 	#standOutTop{
 	height:44px;
@@ -285,6 +309,7 @@
 		display: flex;
     	justify-content: center;
     	align-items: center;
+    margin-bottom:30px;
 	}
 	#embedTop{
 	height:44px;
@@ -300,12 +325,20 @@
 	color: #FFFFFF;
 	line-height: 14px;
 	height:52;
-	/*align text in center*/
-		display: flex;
-    	justify-content: center;
-    	align-items: center;
+	}
+	@media(max-width: 984px){
+		#blackBtn{
+    	font-size: 13px;
+    	margin-bottom: -60px;
+		}
+	}
+	#blackBtnText{
+		text-align: center;
+		vertical-align: middle;
+		line-height: 52px;
 	}
 	#clickArrow{
+		margin-top:18px;
 		margin-left:50px;
 		justify-content: right;
     	align-items: right;
@@ -322,8 +355,6 @@
 	}
 	#createAd{
 		height: 66px;
-		width: 33%;
-		margin: auto;
 		margin-top: 66px;
 		margin-bottom: 66px;
 		/*To center text*/
@@ -333,9 +364,14 @@
 		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
 		border-radius: 5px;
 	}
+	@media(max-width: 984px){
+		#createAd{
+			margin-top: 30px;
+			margin-bottom: 30px;
+		}
+	}
 	#lineBottom{
 		height:2px;
-		/* Bottom Line: */
 		background: #DEDEDE;
 		border-radius: 100px;
 	}
