@@ -7,10 +7,6 @@
 	#centerBar{
 		width:5px;
 		height:100px;
-		/* Rectangle 91: */
-		/*opacity: 0.15;*/
-		/*background: #D8D8D8;
-		border: 1px solid #979797;*/
 		background: white;
 		border-radius: 100px;
 	}
@@ -20,10 +16,11 @@
 	font-size: 40px;
 	color: #FFFFFF;
 	letter-spacing: 5.71px;
+	margin-top: 50px;
 	}
 	#yayCol{
-		padding-left:10px;
-		padding-right: 10px;
+		padding-left:40px;
+		padding-right: 40px;
 	}
 	#subHead{
 		font-family: OpenSans-Semibold;
@@ -40,11 +37,9 @@
 		height:226px;
 		background: rgba(225, 225, 225, 0.14);
 		border-radius: 4px 4px 0px 0px;
-		/*margin-bottom: 200px;*/
 	}
 	@media (max-width: 984px){
 		#firstLeft{
-			/*width:450px;*/
 			height:226px;
 			background: rgba(225, 225, 225, 0.14);
 			border-radius: 4px 4px 0px 0px;
@@ -62,10 +57,9 @@
 		font-family: OpenSans-Light;
 		font-size: 14px;
 		color: #FFFFFF;
-		line-height: 16px;
+		line-height: 18px;
 	}
 	#bottomFill1{
-		/*width:450px;*/
 		position:absolute;
 		bottom:0px;
 		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
@@ -81,7 +75,6 @@
     	align-items: center;
 	}
 	#bottomFill2{
-		/*width:450px;*/
 		position:absolute;
 		bottom:0px;
 		background-image: linear-gradient(180deg, #F06207 0%, #FE3615 100%);
@@ -134,7 +127,7 @@
 	}
 	#btnGroup1{
 		height:27px;
-		width:66px;
+		width:72px;
 		margin-right: 20px;
 		background: rgba(255,255,255,0.20);
 		border-radius: 2px;
@@ -145,7 +138,7 @@
 	}
 	#btnGroup2{
 		height:27px;
-		width:66px;
+		width:72px;
 		margin-right: 20px;
 		background: rgba(255,255,255,0.20);
 		border-radius: 2px;
@@ -156,7 +149,7 @@
 	}
 	#btnGroup3{
 		height: 27px;
-		width:66px;
+		width:72px;
 		background: rgba(255,255,255,0.20);
 		border-radius: 2px;
 		display: flex;
@@ -220,7 +213,7 @@
 		font-family: OpenSans;
 		font-size: 16px;
 		color: #404040;
-		line-height: 20px;
+		line-height: 22px;
 		margin-bottom: 20px;
 	}
 	#WCHeader{
