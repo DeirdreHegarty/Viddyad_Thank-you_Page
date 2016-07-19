@@ -4,8 +4,9 @@ $(document).ready(function(){
 	$("#dropDown2").hide();
 	$("#dropIcon-row").hide();
 
+
     $("#bottomFill2").click(function(){
-    	$("#icon_row2").slideToggle("slow");
+    	$("#icon-row").slideToggle("slow");
         $("#dropDown2").slideToggle("slow");
         $("#dropIcon-row").slideToggle("slow", function(){
 			  if($(this).is(":visible")){
